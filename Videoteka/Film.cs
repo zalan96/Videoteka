@@ -22,11 +22,13 @@ namespace Videoteka
 
 		public void Kolcsonzes()
 		{
-			
+            Console.WriteLine("A film sikeresen ki lett kölcsönözve!");
+            Kolcsonozve = true;
 		}
 		public void Visszavetel()
 		{
-
+            Console.WriteLine("A film sikeresen vissza lett adva!");
+            Kolcsonozve = false;
 		}
 
 	}
