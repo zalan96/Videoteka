@@ -29,7 +29,7 @@ namespace Videoteka
 
 		public Film KeresFilm(string cim)
 		{
-			return Filmek.Find(film => film.Cim == cim);
+			return Filmek.Find(film.Cim == cim);
 		}
 
 		public Felhasznalo KeresFelhasznalo(string nev)
